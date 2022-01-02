@@ -32,11 +32,11 @@ main() {
     sonuc=arms(N);
     if(sonuc==1)
     {
-        printf("Armstrong sayisi!");
+        printf("THAT'S AN ARMSTRONG NUMBER!");
     }
     else
     {
-        printf("Armstrong sayisi degil!");
+        printf("THIS IS NOT ARMSTRONG NUMBER!");
     }
     return 0;
 
