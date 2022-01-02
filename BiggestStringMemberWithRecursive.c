@@ -1,3 +1,8 @@
+/*
+
+DIZININ EN BUYUK ELEMANINI OZYINELEME(RECURSIVE) FONKSIYONU ILE BULAN C ALGORITMASI!
+
+*/
 #include<stdio.h>
 int byk(int d1[],int boyut)
 {
@@ -20,12 +25,12 @@ int byk(int d1[],int boyut)
 main() {
     int N;
 
-    printf("Lutfen kac elemanli bir dizi olusturmak istediginizi giriniz:\n");
+    printf("PLEASE LET ME A NUMBER FOR STRING SIZE \n");
     scanf("%d",&N);
     int dizi[N];
     for(int i=0; i<N; i++)
     {
-      printf("Dizinin %d. elemani:\t",i+1);
+      printf("%d. STRING MEMBER:\t",i+1);
       scanf("%d",&dizi[i]);  
     }
     
@@ -34,5 +39,5 @@ main() {
        byk(dizi,N);
     }
     int b=byk(dizi,N);
-    printf("En byk: %d",b);
+    printf("THE BIGGEST: %d",b);
 }
