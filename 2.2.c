@@ -1,7 +1,7 @@
-/*basamak sayisi = us 
-basamak sayisini bul
-basamaklari ayikla 1234 >>>> 1, 2, 3, 4...
-her basamak icin: basamak^us = sayi ise; armstrong sayisi
+/*
+
+GIRILEN ARALIKTAKI ARMSTRONG SAYILARINI BULAN C ALGORITMASI
+
 */
 #include<stdio.h>
 #include<math.h>
@@ -31,6 +31,6 @@ while(a!=0)
     }
         if(i==toplam)
 printf("\n%d",i);
-    }//for kivircik
+    }
 
 }
