@@ -12,7 +12,7 @@ int fonk(int sayi)
 main()
 {
 	int sayi;
-	printf("Lutfen faktoriyelini hesaplamak isteidginiz sayiyi giriniz:\n");
+	printf("PLEASE LET ME A NUMBER :\n");
 	scanf("%d",&sayi);
 	fonk(sayi);
 	int sonuc = fonk(sayi);
