@@ -1,3 +1,8 @@
+/*
+
+GIRILEN SAYININ MUKEMMEL SAYI OLUP OLMADIGINI ARASTIRAN C ALGORITMASI
+
+*/
 #include<stdio.h>
 int main(){
     int N, toplam=0;
@@ -10,10 +15,10 @@ int main(){
         }
      }
     if(toplam==N){
-       printf("\n%d sayisi bir mukemmel sayidir",N);
+       printf("\n%d THAT'S NUMBER IS PERFECT! ",N);
     }
     else{
-        printf("\n%d sayisi bir mukemmel sayi degildir",N);
+        printf("\n%d THIS NUMBER IS NOT PERFECT! ",N);
     }
     
 }
