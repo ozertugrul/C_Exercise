@@ -1,14 +1,22 @@
+/*
+
+4 ISLEM YAPABILEN BIR HESAP MAKINESI ALGORITMASI
+
+A CALCULATOR WITH 4 OPERATIONS 
+
+*/
+
 #include<stdio.h>
 int main(){
 float s1, s2;
     int i;
-    printf("\n              HOSGELDINIZ\n\n") ; 
-    printf("\nLutfen yapmak istediginiz islemi secin\n");
-    printf("\n 1-TOPLAMA ISLEMI\n 2-CIKARMA ISLEMI\n 3-CARPMA ISLEMI\n 4-BOLME ISLEMI\n\n");
+    printf("\n              WELCOME          \n\n") ; 
+    printf("\nPLEASE CHOSE THE ACTION YOU WANT TO DO \n");
+    printf("\n 1-ADDITION \n 2-SUBTRACTION \n 3-MULTIPLICATION \n 4-DIVISION \n\n");
     scanf("%d", &i);
-    printf("\n1.SAYIYI GIRIN:\n");
+    printf("\n1. NUMBER:\n");
     scanf("%f", &s1);
-    printf("\n2.SAYIYI GIRIN:\n");
+    printf("\n2. NUMBER :\n");
     scanf("%f", &s2);
     switch (i)
         { 
