@@ -1,4 +1,8 @@
+/*
 
+GIRILEN ARALIKTAKI MUKEMMEL SAYILARI EKRANA YAZDIRAN C ALGORITMASI!
+
+*/
 #include<stdio.h>
 int main(){
   int a,b;
